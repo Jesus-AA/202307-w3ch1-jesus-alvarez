@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "jest",
-    "build": "tsc --watch"
+    "build": "tsc --watch",
+    "prepare": "husky install"
   },
   "author": "Jesus Alvarez",
   "license": "ISC",
@@ -22,7 +23,8 @@
     "jest": "^29.6.2",
     "jest-ts-webcompat-resolver": "^1.0.0",
     "ts-jest": "^29.1.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "husky": "^8.0.0"
   },
   "prettier": {
     "singleQuote": true
